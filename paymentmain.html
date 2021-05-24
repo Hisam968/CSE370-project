@@ -1,0 +1,42 @@
+<html>
+    <head>
+    <title>Login And Registration Form for payment</title>
+       <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+      <div class="hero">
+         <div class="form-box">
+		 <h1>Payment for appointment</h1>
+
+
+         </div>
+		 <form id="Register" class="input-group">
+			<input type="text" class="input-field" placeholder="Patient_id" required>
+		  <input type="date" class="input-field" placeholder="Date" required>
+		  <span>Prescription</span>
+		  <form action="upload.php" method="POST" enctype="multipart/form-data">
+		   <input type="file" name="file">
+		   <input type="digit" class="input-field" placeholder="Amount" required>
+		   <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+		   <button type="submit" class="submit-btn">Pay</button>
+		  </form>
+		 
+
+		 </form>
+
+		 
+         </div>
+      </div>
+	  <script>
+	  var y =document.getElementById("Register");
+	  var z =document.getElementById("btn");
+	  function Register(){
+
+		 y.style.left = "70px";
+		 z.style.left = "150px";
+	  }
+
+	  </script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Helvetica;
+	
+}
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(payments.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 880px;
+	height: 480px;
+	position: relative;
+	margin: 6%auto;
+	background: rgb(255, 255, 255);
+	padding: 5px;
+	text-align:center;
+	overflow: hidden;
+
+
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+
+	
+}.input-field{
+	padding: 30px 180px;
+   border-bottom: 1px solid rgb(39, 54, 122);
+	outline: none;
+	background :transparent;
+	
+}.submit-btn{
+	width:100%;
+	padding: 10px 50px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #b5ece8,#49dee9);
+	border:0;
+	outline: none;
+	border-radius: 30px;
+	
+	
+}
+#Register{
+	left: 450px;
+}
